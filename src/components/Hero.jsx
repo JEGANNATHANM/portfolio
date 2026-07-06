@@ -6,6 +6,7 @@ import {
   FaDownload,
 } from "react-icons/fa";
 
+
 function Hero() {
   const techStack = [
     "Java",
@@ -166,17 +167,17 @@ function Hero() {
 
         {/* RIGHT IMAGE */}
 
-        <div className="relative flex justify-center">
+       <div className="relative flex justify-center">
 
-          <div className="absolute w-80 h-80 md:w-96 md:h-96 rounded-full bg-cyan-500 blur-3xl opacity-25 animate-pulse"></div>
+  <div className="absolute w-52 h-52 md:w-80 md:h-80 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 opacity-20 blur-2xl"></div>
 
-          <img
-            src="/profile.jpg"
-            alt="Jeganathan M"
-            className="relative w-80 h-60 md:w-96 md:h-100 object-cover rounded-full border-4 border-cyan-400 shadow-[0_0_60px_rgba(34,211,238,0.6)] hover:scale-105 transition duration-500"
-          />
-
-        </div>
+  <img
+    src="/JEGANATHAN1.jpeg"
+    alt="Jeganathan"
+    className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full object-cover object-top border-4 border-cyan-400 shadow-lg"
+  />
+  
+</div>
 
       </div>
     </section>
